@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page1back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATISTICS"
+        android:textSize="50sp"
+        android:id="@+id/stat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:fontFamily="monospace"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:id="@+id/from_date"
+        android:layout_below="@+id/stat"
+        android:hint="Select any Date"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_below="@+id/from_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+
+</RelativeLayout>

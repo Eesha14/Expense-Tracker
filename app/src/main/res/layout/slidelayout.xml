@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        app:srcCompat="@drawable/wallet"
+        android:id="@+id/slide_image"
+        android:layout_marginTop="53dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="EXPENSES"
+        android:layout_width="100dp"
+        android:id="@+id/head1"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="33dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:text="Add your expenses on daily basis by entering various categories of expenses spent on that day."
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:id="@+id/desp1"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/head1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

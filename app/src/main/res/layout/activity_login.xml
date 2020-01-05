@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/page1back"
+    tools:context="com.firebaseloginapp.AccountActivity.LoginActivity">
+
+    <EditText
+        android:inputType="textPassword"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_3"
+        android:background="#11000000"
+        android:hint="Password"
+        android:layout_marginTop="24dp"
+        android:id="@+id/password"
+        android:layout_height="40dp"
+        android:layout_below="@+id/username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_width="250dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/login_card"
+        android:layout_marginTop="27dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:layout_width="100dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:id="@+id/login_but"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dollar"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:layout_width="80dp" />
+
+    <EditText
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textSize="16dp"
+        android:drawableLeft="@drawable/ic_action_1"
+        android:hint="Username"
+        android:background="#11000000"
+        android:id="@+id/username"
+        android:layout_height="40dp"
+        android:layout_marginTop="87dp"
+        android:layout_width="250dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="SIGN UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_marginBottom="13dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

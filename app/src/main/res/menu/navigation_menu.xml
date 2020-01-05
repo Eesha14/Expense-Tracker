@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/nav_expenses"
+       android:icon="@mipmap/baseline_attach_money_black_18dp"
+       android:title="Expenses" />
+    <item android:id="@+id/nav_income"
+        android:icon="@mipmap/baseline_account_balance_wallet_black_18dp"
+        android:title="Income" />
+    <item android:id="@+id/nav_statistics"
+        android:icon="@mipmap/baseline_bar_chart_black_18dp"
+        android:title="Statistics" />
+    <item android:id="@+id/nav_logout"
+        android:icon="@mipmap/baseline_exit_to_app_black_18dp"
+        android:title="Log Out" />
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirebaseLoginApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="report_list">
+        <item>Select a report</item>
+        <item>Income Bar Chart</item>
+        <item>Expense Bar Chart</item>
+        <item>Income Pie Chart</item>
+        <item>Expense Pie Chart</item>
+    </string-array>
+</resources>
