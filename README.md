@@ -25,12 +25,15 @@ categories on a particular day and the divison is given in percentile form. When
 clicks on a particular expense , it toasts a message with that category and amount
 spent on it. This graph is user friendly,colourful,animated and it can be rotated
 according to users convenience .
+
 2.Income Pie Chart: This pie chart displays the incomes received by different
 sources on a particular day and the divison is given in percentile form. When a user
 clicks on a particular income, it toasts a message with that income source name and
 amount spent on it. This graph is user friendly,colourful,animated and it can be
 rotated according to users convenience .
+
 3.Expense Bar Chart: This bar chart displays a bar graph of the total amount of
 expenses spent on a particular date, with total expenses as y-axis and date on x-axis.
+
 4.Income Bar Chart: This bar chart displays a bar graph of the total amount of
 income received on a particular date, with total income as y-axis and date on x-axis.
